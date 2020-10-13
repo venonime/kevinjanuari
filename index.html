@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report - DimensiWibu</title>
+</head>
+<body>
+  <style>
+    body{background:#222;color:#ccc;margin:0}.form-report{width:100%}.repin{outline:none;display:block;margin:20px 0;padding:10px 5px;font-size:16px;background:transparent;width:100%;color:white;border-bottom:1px solid #eee;border-top:0;border-left:0;border-right:0}.repsen{padding:12px 24px;margin:5px 0;font-size:15px;border:0;background:forestgreen;color:#fff;width:50%}.button-mid{display:block;text-align:center;}@media screen and (max-width:768px){.repin{width:100%!important}}
+  </style>
+  <div class='form-report'>
+    <form action="https://formspree.io/dimensiwibu@gmail.com" method="POST">
+    <input class='repin' type="text" name="Nama Anime" placeholder="Nama anime" required="required"/>
+    <b>Pilih masalah</b><br>
+    <input type="radio" id="download" name="Masalah" value="Download Link"><label for="download">Download Link</label>
+    <input type="radio" id="streaming" name="Masalah" value="Streaming"><label for="streaming">Streaming</label>
+    <input type="radio" id="keduanya" name="Masalah" value="Download + Streaming"><label for="keduanya">Keduanya</label>
+    <textarea class='repin' type="message" name="Penjelasan Masalah" placeholder="Jelaskan apa yang terjadi (bila perlu sejelas mungkin, untuk mempercepat perbaikan)" rows="5" required="required"></textarea>
+    <div class="button-mid"><input class='repsen' type="submit" value="Send"/></div>
+    </form>
+  </div>
+</body>
+</html>
